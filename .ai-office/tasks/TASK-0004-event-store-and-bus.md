@@ -3,7 +3,9 @@ id: TASK-0004
 type: task
 title: Event store and bus
 version: 1
-status: draft
+status: approved
+approved_by: Huy Le Quang
+approved_at: 2026-11-21T15:14:01Z
 state: BACKLOG
 feature: FEAT-0001
 plan: PLAN-0001

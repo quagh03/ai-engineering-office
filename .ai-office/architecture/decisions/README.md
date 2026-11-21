@@ -2,7 +2,7 @@
 
 Each record states one decision, why it was made, and what it costs. A decision is changed by adding a new record that supersedes the old one, never by editing an accepted record.
 
-Each record's `status` is in its front matter. All are `in_review` until the user approves the architecture.
+Each record's `status` is in its front matter. All thirteen are `approved` as of 2026-11-21.
 
 | # | Decision |
 |---|----------|

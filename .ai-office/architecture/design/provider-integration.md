@@ -3,7 +3,9 @@ id: DN-0004
 type: design-note
 title: Provider integration
 version: 1
-status: in_review
+status: approved
+approved_by: Huy Le Quang
+approved_at: 2026-11-21T15:14:01Z
 derives_from: [PRD, SYSTEM-DESIGN]
 ---
 

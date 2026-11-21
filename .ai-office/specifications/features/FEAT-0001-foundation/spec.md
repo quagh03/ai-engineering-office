@@ -3,7 +3,9 @@ id: FEAT-0001
 type: feature-spec
 title: Application foundation
 version: 1
-status: in_review
+status: approved
+approved_by: Huy Le Quang
+approved_at: 2026-11-21T15:14:01Z
 workflow_profile: full
 derives_from: [PRD#US-001, PRD#US-002, PRD#PR-010, PRD#PR-011, PRD#PR-100, PRD#PR-101, PRD#PR-102, PRD#CON-001, PRD#CON-002]
 ---

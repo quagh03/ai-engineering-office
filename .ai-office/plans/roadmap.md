@@ -3,7 +3,9 @@ id: ROADMAP
 type: roadmap
 title: Roadmap
 version: 1
-status: in_review
+status: approved
+approved_by: Huy Le Quang
+approved_at: 2026-11-21T15:14:01Z
 derives_from: [PRD, SYSTEM-DESIGN]
 ---
 
@@ -19,7 +21,7 @@ A phase's task table below is an outline. Before any of its work starts, the fea
 
 | Feature | Stage | Artifacts |
 |---------|-------|-----------|
-| FEAT-0001 Application foundation | Specification, awaiting approval | [Specification](../specifications/features/FEAT-0001-foundation/spec.md), [draft plan](PLAN-0001-foundation.md) |
+| FEAT-0001 Application foundation | Implementation (TASK-0001 ready) | [Specification](../specifications/features/FEAT-0001-foundation/spec.md), [plan](PLAN-0001-foundation.md) |
 | FEAT-0002 to FEAT-0009 | Not started | - |
 
 ## Working rules

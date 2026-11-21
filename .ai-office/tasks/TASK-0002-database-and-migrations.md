@@ -3,7 +3,9 @@ id: TASK-0002
 type: task
 title: Database and migrations
 version: 1
-status: draft
+status: approved
+approved_by: Huy Le Quang
+approved_at: 2026-11-21T15:14:01Z
 state: BACKLOG
 feature: FEAT-0001
 plan: PLAN-0001

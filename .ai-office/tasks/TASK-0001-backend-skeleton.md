@@ -3,8 +3,10 @@ id: TASK-0001
 type: task
 title: Backend skeleton
 version: 1
-status: draft
-state: BACKLOG
+status: approved
+approved_by: Huy Le Quang
+approved_at: 2026-11-21T15:14:01Z
+state: READY
 feature: FEAT-0001
 plan: PLAN-0001
 role: backend-developer

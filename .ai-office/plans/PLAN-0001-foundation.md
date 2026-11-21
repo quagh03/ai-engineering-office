@@ -3,14 +3,16 @@ id: PLAN-0001
 type: plan
 title: Implementation plan for the application foundation
 version: 1
-status: draft
+status: approved
+approved_by: Huy Le Quang
+approved_at: 2026-11-21T15:14:01Z
 feature: FEAT-0001
 derives_from: [FEAT-0001]
 ---
 
 # PLAN-0001: Application foundation
 
-This plan is a **draft**. It can be approved only after the [FEAT-0001 specification](../specifications/features/FEAT-0001-foundation/spec.md) and the architecture are approved (constitution C-004). Its tasks stay in `BACKLOG` until then.
+Approved with the [FEAT-0001 specification](../specifications/features/FEAT-0001-foundation/spec.md) and the architecture. Approving this plan also approved the dependencies it lists. [TASK-0001](../tasks/TASK-0001-backend-skeleton.md) is `READY`; the others stay in `BACKLOG` until their dependencies are completed.
 
 ## Tasks
 

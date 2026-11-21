@@ -3,7 +3,9 @@ id: ADR-0009
 type: adr
 title: Three cost measurement levels and multi-meter budgets
 version: 1
-status: in_review
+status: approved
+approved_by: Huy Le Quang
+approved_at: 2026-11-21T15:14:01Z
 derives_from: [SYSTEM-DESIGN]
 ---
 

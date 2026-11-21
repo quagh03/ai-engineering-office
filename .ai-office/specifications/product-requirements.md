@@ -3,7 +3,9 @@ id: PRD
 type: product-requirements
 title: AI Engineering Office product requirements
 version: 1
-status: in_review
+status: approved
+approved_by: Huy Le Quang
+approved_at: 2026-11-21T15:14:01Z
 source: Product brief, sections 1-18, and the user's answers of 2026-11-21
 ---
 
@@ -143,7 +145,7 @@ Each feature gets its own specification, written and approved when its turn come
 
 | Feature | Title | Primary requirements | Specification |
 |---------|-------|----------------------|---------------|
-| FEAT-0001 | Application foundation | PR-010, PR-011, PR-100, PR-101, PR-102, US-001, US-002 | [In review](features/FEAT-0001-foundation/spec.md) |
+| FEAT-0001 | Application foundation | PR-010, PR-011, PR-100, PR-101, PR-102, US-001, US-002 | [Approved](features/FEAT-0001-foundation/spec.md) |
 | FEAT-0002 | SDD engine | PR-001 to PR-005 | Not started |
 | FEAT-0003 | Orchestration engine | PR-030 to PR-032, PR-040 to PR-045, PR-050 | Not started |
 | FEAT-0004 | Cursor and Claude Code integrations | PR-020 to PR-023, PR-090, PR-091 | Not started |

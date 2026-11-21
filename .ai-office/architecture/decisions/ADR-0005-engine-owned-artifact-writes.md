@@ -3,7 +3,9 @@ id: ADR-0005
 type: adr
 title: Authoring executions are read-only; the engine writes artifacts
 version: 1
-status: in_review
+status: approved
+approved_by: Huy Le Quang
+approved_at: 2026-11-21T15:14:01Z
 derives_from: [SYSTEM-DESIGN]
 ---
 

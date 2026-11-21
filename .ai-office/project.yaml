@@ -1,0 +1,30 @@
+# Project configuration for the AI Engineering Office's own repository.
+# Maintained by hand during the bootstrap (ADR-0013); read by the engine from FEAT-0002 onward.
+
+id: PRJ-ai-engineering-office
+name: AI Engineering Office
+workflow: bootstrap          # artifacts and task state are maintained manually for now
+platform: macos
+base_branch: develop         # the project's main line; nothing is merged into it without the user's decision
+execution_policy: balanced   # economy | balanced | quality_first
+
+providers:
+  cursor:
+    billing_basis: subscription
+  claude-code:
+    billing_basis: subscription
+
+git:
+  commit_on_working_branches: allowed
+  merge_to_base: human_only        # cannot be relaxed (PRD#CON-004)
+  push_to_remote: human_only
+
+approvals:
+  specification: always
+  architecture: always
+  plan: always                     # stricter than the product default during the bootstrap
+  dependency_installation: always
+  scope_expansion: always
+
+# Named commands the engine may run. Declared as they come to exist (TASK-0009).
+commands: {}

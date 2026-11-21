@@ -2,7 +2,7 @@
 
 Each record states one decision, why it was made, and what it costs. A decision is changed by adding a new record that supersedes the old one, never by editing an accepted record.
 
-Each record's `status` is in its front matter. All thirteen are `approved` as of 2026-11-21.
+Each record's `status` is in its front matter. ADR-0001 to ADR-0014 are `approved`.
 
 | # | Decision |
 |---|----------|
@@ -19,3 +19,4 @@ Each record's `status` is in its front matter. All thirteen are `approved` as of
 | [0011](ADR-0011-deterministic-work-stays-in-the-engine.md) | Deterministic work is never delegated to AI |
 | [0012](ADR-0012-local-web-app-3d-as-projection.md) | Local web app; the 3D office is an optional projection of shared state |
 | [0013](ADR-0013-bootstrap-with-sdd.md) | This platform is built with its own SDD process |
+| [0014](ADR-0014-git-convention.md) | Git branching and commit convention |

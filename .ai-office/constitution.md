@@ -2,10 +2,12 @@
 id: CONSTITUTION
 type: constitution
 title: Project constitution
-version: 1
+version: 2
 status: approved
 approved_by: Huy Le Quang
-approved_at: 2026-11-21T15:14:01Z
+approved_at: 2026-11-21T15:19:08Z
+supersedes: version 1 (approved 2026-11-21)
+change_summary: Add git convention clauses C-045 and C-046; clarify C-040 against ADR-0014.
 ---
 
 # Project constitution
@@ -23,7 +25,7 @@ The rules every piece of work on this project must follow, whoever or whatever d
 
 ## Engineering
 
-- **C-010** Tasks are small and individually verifiable. A feature is not generated in one pass.
+- **C-010** Tasks are small and individually verifiable. A task is not generated as one undifferentiated change set when it can be split.
 - **C-011** Tests are written with the code they test, in the same task.
 - **C-012** The application stays runnable after every task.
 - **C-013** Module boundaries in the system design are enforced by tooling. The orchestration engine contains no provider-specific logic.
@@ -51,11 +53,13 @@ The rules every piece of work on this project must follow, whoever or whatever d
 
 ## Safety
 
-- **C-040** Commits are allowed on working branches. Nothing is merged into the base branch, no pull request is merged, and nothing is pushed to a remote without an explicit decision from the user for that specific action.
+- **C-040** Commits are allowed on working branches. Nothing is merged into the base branch, no pull request is merged, and nothing is pushed to a remote without an explicit decision from the user for that specific action. An AI session never performs those three actions.
 - **C-041** Dependencies are added only with the user's approval, each named with its purpose.
 - **C-042** Destructive file operations outside a task's scope need approval.
 - **C-043** Secrets are never written to artifacts, prompts, logs, or the repository.
 - **C-044** CLI flags and provider behavior are used only when verified against the installed binary or official documentation. Unverified behavior is marked as such.
+- **C-045** Git branches, commits, and pull requests follow the project's [git convention](architecture/design/git-convention.md). Implementation commits reference their task; task branch names contain the task id.
+- **C-046** An AI session does not commit directly to the base branch (`develop`) unless the user explicitly asks for that specific commit on the base branch. It does not force-push or rewrite published history.
 
 ## Constraints
 

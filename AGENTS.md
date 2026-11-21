@@ -16,6 +16,7 @@ This project is built with Spec-Driven Development. Its engineering artifacts ar
 - **Stay in the task's `write_scope`.** If the work needs a file outside it, stop and ask.
 - **Report honestly.** State what was verified and how, what was not verified, and what remains.
 - **Commits are allowed on working branches. Merging into the base branch, merging a pull request, and pushing are the user's decisions.**
+- **Git convention:** follow `.ai-office/architecture/design/git-convention.md` (ADR-0014). Work on `task/TASK-...` branches, use conventional commits with SDD trailers, never merge, never push, never commit to `develop` unless the user asks for that specific commit.
 - **No new dependency** unless the approved plan lists it.
 
 ## Working on a task
@@ -35,3 +36,4 @@ This project is built with Spec-Driven Development. Its engineering artifacts ar
 | Why a decision was made | `.ai-office/architecture/decisions/` |
 | What to build next | `.ai-office/plans/`, `.ai-office/tasks/` |
 | How the process works before the engine exists | `.ai-office/architecture/decisions/ADR-0013-bootstrap-with-sdd.md` |
+| Git branches, commits, pull requests | `.ai-office/architecture/design/git-convention.md` (ADR-0014) |

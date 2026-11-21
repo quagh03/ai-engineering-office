@@ -15,9 +15,17 @@ providers:
     billing_basis: subscription
 
 git:
+  # Full convention: architecture/design/git-convention.md (ADR-0014)
   commit_on_working_branches: allowed
+  commit_on_base: user_explicit_only
   merge_to_base: human_only        # cannot be relaxed (PRD#CON-004)
+  merge_pull_request: human_only
   push_to_remote: human_only
+  branch_patterns:
+    feature: "feat/FEAT-NNNN-<slug>"
+    task: "task/TASK-NNNN-<slug>"
+    engine_task: "aio/<feature>/<task>"   # product worktrees (ADR-0007)
+  commit_format: conventional_commits_with_sdd_trailers
 
 approvals:
   specification: always
